@@ -1,0 +1,123 @@
+.sliderhot {
+    /*width: 82%;*/
+    width: 1090px;
+    overflow: hidden;
+    margin-left: 9%;
+    margin-right: 9%;
+
+}
+
+.slideshot {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.containerhot {
+    width: 50%;
+    height: 500px;
+    color: #333;
+    text-align: center;
+    margin: 12px 20px;
+    padding: 28px 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, .08);
+    background: url(../img/Hot.png) left top no-repeat;
+    background-size: 86px;
+}
+
+.containerhot img {
+    width: 50%;
+}
+
+.containerhot h1 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    color: #4eb848;
+    text-align: center;
+    position: relative;
+    margin-left: 22%;
+}
+
+.containerhot span {
+    position: relative;
+    background: #0017ea;
+    color: #fff;
+    padding: 0 22px;
+    width: 40%;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    font-family: SVN-Gilroy, sans-serif;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.containerhot button {
+    background: #fff;
+    border: 2px solid #4eb848;
+    color: #4eb848;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 7px 36px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .4s;
+}
+
+.containerhot button a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4eb848;
+    font-size: 20px;
+}
+
+.mota {
+    width: auto;
+    height: 200px;
+}
+
+.mota p {
+    font-size: 16px;
+    color: #565656;
+    line-height: 18px;
+    display: block;
+    margin-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.prev {
+    left: 5%;
+}
+
+.next {
+    right: 5%;
+}

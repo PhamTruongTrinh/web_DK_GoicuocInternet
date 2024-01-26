@@ -1,0 +1,50 @@
+.table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.label {
+    font-weight: bolder;
+}
+
+.Quanly a {
+    font-size: 22px;
+    font-weight: 600;
+    color: blue;
+    text-decoration: none;
+}
+
+.chonTinh select {
+    width: 15%;
+    height: 30px;
+}
+
+/* Add this to your existing CSS */
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        /* Adjust the font size for smaller screens */
+    }
+
+    .table,
+    th,
+    td {
+        font-size: 12px;
+    }
+
+    .label {
+        font-weight: bolder;
+    }
+
+    .Quanly a {
+        font-size: 18px;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+    }
+}

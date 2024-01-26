@@ -1,0 +1,129 @@
+.Navbar {
+    position: absolute;
+    overflow: hidden;
+    transition: margin-right 0.3s;
+    margin-left: 120px;
+    float: left;
+}
+
+nav {
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 112px;
+    height: 32px;
+    transition: width 0.3s;
+    position: relative;
+}
+
+input[type="search"]:focus {
+    width: 250px;
+    z-index: 50;
+}
+
+/* nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    position: relative;
+    z-index: 1;
+} */
+
+form[name="Search"] {
+    /* display: flex; */
+    align-items: center;
+    float: right;
+}
+
+.logo a img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    padding-right: 30px;
+}
+
+.Nav-search {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    float: right;
+    margin-top: -7%;
+}
+
+
+/* ///////////////////////////////// */
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 3s ease, max-height 3s ease;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: block 3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    max-height: 200px;
+    /* Đặt giá trị max-height tùy thuộc vào chiều cao tối đa bạn muốn cho dropdown */
+}
+
+.dropdown:hover a[name="qly"] {
+    display: inline-block;
+    margin-top: 67.5%;
+    /* Add any additional styles you want for this specific <a> tag */
+}
+
+nav a:hover {
+    font-weight: 600;
+}

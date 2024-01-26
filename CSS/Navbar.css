@@ -1,0 +1,71 @@
+.Navbar {
+    position: absolute;
+    overflow: hidden;
+    transition: margin-right 0.3s;
+    margin-left: 120px;
+}
+
+nav {
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+input {
+    width: 112px;
+    height: 32px;
+    transition: width 0.3s;
+    position: relative;
+}
+
+input[type="search"]:focus {
+    width: 250px;
+    z-index: 50;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.logo a img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    padding-right: 30px;
+}
+
+.Nav-search {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    float: right;
+    margin-top: -7%;
+}

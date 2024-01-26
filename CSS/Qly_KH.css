@@ -1,0 +1,47 @@
+.table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.label {
+    font-weight: bolder;
+}
+
+.Quanly a {
+    font-size: 22px;
+    font-weight: 600;
+    color: blue;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container label,
+.container input,
+.container select {
+    width: 100%;
+    /* Chiếm toàn bộ chiều rộng của container */
+    box-sizing: border-box;
+    /* Đảm bảo rằng padding và border không làm thay đổi chiều rộng */
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các đối tượng */
+}
+
+.container label {
+    flex: 1;
+}
+
+.container input,
+.container select {
+    flex: 2;
+    /* Đặt tỉ lệ cho các input và select để chúng chiếm 2 phần trong flex container */
+}

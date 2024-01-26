@@ -1,0 +1,35 @@
+/* .checkout_container {
+    width: 70%;
+    margin: auto;
+
+}
+
+.checkout_container p {
+    font-size: 16px;
+} */
+
+h1 {
+    margin-left: 15%;
+}
+
+.checkout_container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.checkout_info {
+    flex-basis: 50%;
+    /* Điều chỉnh kích thước của cột */
+}
+
+.checkout_info p {
+    font-size: 20px;
+}
+
+#qrcode {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

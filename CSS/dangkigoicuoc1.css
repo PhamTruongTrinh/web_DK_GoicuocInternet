@@ -1,0 +1,170 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.price {
+    color: rgb(87 205 0);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.fa {
+    font-size: 20px;
+    color: gray;
+}
+
+.mota {
+    margin-left: 10%;
+    text-align: left;
+}
+
+.mota p {
+    font-weight: 400;
+}
+
+.speed {
+    margin-left: 10%;
+    text-align: left;
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.container {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 40%;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container input,
+select {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.containerCCCD {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40%;
+    margin-left: -37%;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.containerCCCD input,
+select {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #ff8c00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6a00;
+}
+
+.chonTinh {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 31%;
+    float: right;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.chonTinh select {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom {
+    height: 830px;
+    width: 100%;
+}
+
+.containerGoicuoc {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 31%;
+    margin-top: 3%;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.containerGoicuoc select {
+    font-weight: 500;
+}
+
+.containerGoicuoc input {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Thanhtoan {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 70%;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin: auto;
+    height: 155px;
+}

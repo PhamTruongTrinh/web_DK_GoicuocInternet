@@ -1,0 +1,12 @@
+.noidung {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px
+}
+
+.noidung a {
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+    text-decoration: none;
+}
